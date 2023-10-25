@@ -1,0 +1,8 @@
+       ####################### logs du 25/10/2023 - 12h35 du bot discord Gdesign #######################
+       ####                                                                                          ####
+       ####                                                                                          ####
+       ##################################################################################################
+    
+[25/10/2023 - 12h35] le bots est demarer
+[25/10/2023 - 12h35] Commandes globales enregistrées avec succès.
+[25/10/2023 - 12h35] la commande /crée-bouton a été utilisée par gweb.js

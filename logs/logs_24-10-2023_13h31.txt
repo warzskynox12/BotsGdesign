@@ -1,0 +1,10 @@
+       ####################### logs du 24/10/2023 - 13h31 du bot discord Gdesign #######################
+       ####                                                                                          ####
+       ####                                                                                          ####
+       ##################################################################################################
+    
+[24/10/2023 - 13h31] le bots est demarer
+[24/10/2023 - 13h31] Commandes globales enregistrées avec succès.
+[24/10/2023 - 13h32] le button accepte a etait utilisé par gweb.js
+[24/10/2023 - 13h32] le button refuse a etait utilisé par gweb.js
+[24/10/2023 - 13h32] le button accepte a etait utilisé par gweb.js

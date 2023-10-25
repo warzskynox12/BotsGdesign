@@ -1,6 +1,7 @@
 const { logger } = require("./function/logger");
 logger();
 const { Client, GatewayIntentBits } = require("discord.js");
+
 const { token } = require("./json/config.json");
 const client = new Client({
   intents: [
@@ -26,6 +27,8 @@ const button = require("./commande/button");
 client.commands.set(button.data.name, button);
 const paypal = require("./commande/paypal");
 client.commands.set(paypal.data.name, paypal);
+const regle = require("./commande/regle");
+client.commands.set(regle.data.name, regle);
 const COMMANDS_DATA = [
   repeatCommand.data,
   giveRoleCommand.data,
@@ -33,6 +36,7 @@ const COMMANDS_DATA = [
   removeRoleCommand.data,
   button.data,
   paypal.data,
+  regle.data,
 ];
 const { handleReadyEvent } = require("./function/readyEvent");
 client.once("ready", async () => {
@@ -55,9 +59,11 @@ function collectCategories() {
   client.guilds.cache.forEach((guild) => {
     guild.channels.cache.forEach((channel) => {
       if (channel.type === 4) {
+        const name = channel.name;
+        const id = channel.id;
         categoriesData.push({
-          name: channel.name,
-          id: channel.id,
+          name: name,
+          id: id,
         });
       }
     });
@@ -76,6 +82,7 @@ const { buttonInteraction } = require("./function/interactionbutton");
 client.on("interactionCreate", async (interaction) => {
   await buttonInteraction(interaction);
 });
+
 const { handleGuildMemberAdd } = require("./function/guildMemberAddHandler");
 client.on("guildMemberAdd", async (member) => {
   await handleGuildMemberAdd(member);

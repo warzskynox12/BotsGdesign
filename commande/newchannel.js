@@ -25,6 +25,12 @@ module.exports = {
   },
 
   async execute(interaction) {
+    if (!interaction.member.permissions.has("Administrator")) {
+      return await interaction.reply({
+        content: "Vous devez être administrateur pour exécuter cette commande.",
+        ephemeral: true, // Réponse visible uniquement pour l'utilisateur qui a exécuté la commande
+      });
+    }
     const nom = interaction.options.getString("nom");
     const categoryId = interaction.options.getString("category");
 

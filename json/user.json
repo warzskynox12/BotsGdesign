@@ -1,0 +1,85 @@
+{
+  "un": {
+    "name": "max17gaming",
+    "id": "923281967712186368",
+    "code-in": "1312471139147",
+    "code-fi": "24711391",
+    "portfolio": "",
+    "description": "Amateur de jeux vidéo et de montage vidéo, je me spécialise dans le montage de jeux vidéo mais je suis également fort dans les autres domaines",
+    "prix": "a partir de 15€ la minute"
+  },
+  "deux": {
+    "name": "elvan_yt",
+    "id": "694256390440484984",
+    "code-in": "512221142520",
+    "code-fi": "222114425",
+    "portfolio": "https://www.instagram.com/elvan.yt",
+    "description": "Actuellement graphiste depuis plusieurs années, j'ai eu l'occasion de travailler avec des nombreux influenceurs plus ou moins connus (500K sur TikTok/YouTube) et également plusieurs petites entreprises 🌐",
+    "prix": "- 15€ pour les miniatures :\n> Axé Gaming et Irl\n- 20€ la bannière :\n> Toute demande possible\n- À partir de 15€ le logo en fonction de la commande, je suis également ouvert à tout autres demandes type flyers, photo de profil..."
+  },
+  "quatre": {
+    "name": "_leopix",
+    "id": "1124083436890640386",
+    "code-in": "1251516924",
+    "code-fi": "25151692",
+    "portfolio": "",
+    "description": "",
+    "prix": ""
+  },
+  "cinq": {
+    "name": "jus2pomme.",
+    "id": "480345534004199434",
+    "code-in": "102119161513135",
+    "code-fi": "19161513",
+    "portfolio": "https://www.figma.com/proto/xWfozA3u23Nujh1pC4czXa/Untitled?page-id=0%3A1&type=design&node-id=89-119&viewport=1663%2C833%2C0.18&t=k7xSVZhKZMPRtzBx-1&scaling=min-zoom&starting-point-node-id=89%3A119&mode=design",
+    "description": "Jus2pomme, je suis UX/UI designer. j'ai déjà exercé sur des projets personnels ou pour des amis.",
+    "prix": "- 10€ par page\n- 5€ de supplément pour un prototype cliquable"
+  },
+  "six": {
+    "name": "8raphael8",
+    "id": "817437308487729163",
+    "code-in": "1811681512",
+    "code-fi": "81168151",
+    "portfolio": "",
+    "description": "",
+    "prix": ""
+  },
+  "sept": {
+    "name": "gbdj_gdesign",
+    "id": "1042761953011060786",
+    "code-in": "72410745199714",
+    "code-fi": "10745199",
+    "portfolio": "",
+    "description": "",
+    "prix": ""
+  },
+  "huit": {
+    "name": "vdt.enzo",
+    "id": "1140627733785870346",
+    "code-in": "224205142615",
+    "code-fi": "42051426",
+    "portfolio": "",
+    "description": "En deuxième année d'étude de graphisme, plusieurs années sur les réseaux à travailler avec des particuliers, influenceurs projets...\n\nRéalisé tous types de design passant du logo, au flyer à l'affiche au tee-shirt..",
+    "prix": "15€ l'heure (peux s'arranger)"
+  },
+
+  "neuf": {
+    "name": "flothomon",
+    "id": "315145718807658496",
+    "code-in": "6121520815131514",
+    "code-fi": "52081513",
+    "portfolio": "",
+    "description": "",
+    "prix": ""
+  },
+
+  "dix": {
+    "name": "gweb.js",
+    "id": "1093555185265152080",
+    "code-in": "723521019",
+    "code-fi": "23521019",
+    "portfolio": "\nhttps://gdesign2023.github.io/Gdesign/\n",
+    "description": "\n-Développer html, js, php et de basse de donner (mysql)\n-Developper d'application android Web en locale ou en réseaux\n-developeur de bots discord.js\n",
+    "prix": "\n- a partir de 20€ la page statique\n- a partir de 30€ la page dynamique\n- +10€ l'application android\n- a partir de 20€ le code du bot discord.js\n"
+  }
+}
